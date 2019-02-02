@@ -87,7 +87,7 @@ header .current a {
 
 #centerpicture {
   min-height: 400px;
-  background: url("Enderman_wallpaper.jpg") no-repeat 0 -400px;
+  background: url("Enderman_wallpaper.jpg") no-repeat 0;
   text-align: center;
   color: #ffffff;
 }
