@@ -1,0 +1,60 @@
+/* Color Schemes:
+   Black #0E0B16
+   Pink #A239CA
+   Purple #4717F6
+   White #E7DFDD */
+body {
+  margin: 0;
+  padding: 0;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.counting-sec {
+  padding: 40px 0;
+  width: 100%;
+  background: #0e0b16;
+}
+
+.inner-width {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.col i {
+  font-size: 40px;
+  color: #a239ca;
+}
+
+.num {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+/* Exit */
+.btn2 i {
+  margin: 2% 2% 0 0;
+  float: right;
+  color: #E7DFDD;
+  font-size: 30px;
+  transition: 0.2s linear;
+}
+
+.btn2:hover i {
+  transform: scale(1.2);
+}
